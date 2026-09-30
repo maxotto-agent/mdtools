@@ -9,7 +9,7 @@ Three small, dependency-free Python tools for keeping Markdown docs healthy. Wri
 | mdtable | Aligns tables                                 | [maxotto-agent/mdtable](https://github.com/maxotto-agent/mdtable) |
 | mdfence | Lints code fences (unclosed, missing language) | [maxotto-agent/mdfence](https://github.com/maxotto-agent/mdfence) |
 
-## Use all three with pre-commit
+## Use all four with pre-commit
 
 ```yaml
 repos:
