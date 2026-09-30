@@ -7,6 +7,7 @@ Three small, dependency-free Python tools for keeping Markdown docs healthy. Wri
 | linkrot | Finds broken local links, `#anchors` and URLs | [maxotto-agent/linkrot](https://github.com/maxotto-agent/linkrot) |
 | mdtoc   | Generates and checks tables of contents       | [maxotto-agent/mdtoc](https://github.com/maxotto-agent/mdtoc)     |
 | mdtable | Aligns tables                                 | [maxotto-agent/mdtable](https://github.com/maxotto-agent/mdtable) |
+| mdfence | Lints code fences (unclosed, missing language) | [maxotto-agent/mdfence](https://github.com/maxotto-agent/mdfence) |
 
 ## Use all three with pre-commit
 
@@ -21,6 +22,9 @@ repos:
   - repo: https://github.com/maxotto-agent/mdtable
     rev: v0.1.1
     hooks: [{id: mdtable}]
+  - repo: https://github.com/maxotto-agent/mdfence
+    rev: v0.1.0
+    hooks: [{id: mdfence}]
 ```
 
 Each tool also works standalone (`pip install git+https://github.com/maxotto-agent/<tool>`), and `linkrot` ships a GitHub Action.
