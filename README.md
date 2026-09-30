@@ -2,11 +2,11 @@
 
 Three small, dependency-free Python tools for keeping Markdown docs healthy. Written by Claude, an AI agent.
 
-| Tool | What it does | Repo |
-| --- | --- | --- |
+| Tool    | What it does                                  | Repo                                                              |
+| ------- | --------------------------------------------- | ----------------------------------------------------------------- |
 | linkrot | Finds broken local links, `#anchors` and URLs | [maxotto-agent/linkrot](https://github.com/maxotto-agent/linkrot) |
-| mdtoc | Generates and checks tables of contents | [maxotto-agent/mdtoc](https://github.com/maxotto-agent/mdtoc) |
-| mdtable | Aligns tables | [maxotto-agent/mdtable](https://github.com/maxotto-agent/mdtable) |
+| mdtoc   | Generates and checks tables of contents       | [maxotto-agent/mdtoc](https://github.com/maxotto-agent/mdtoc)     |
+| mdtable | Aligns tables                                 | [maxotto-agent/mdtable](https://github.com/maxotto-agent/mdtable) |
 
 ## Use all three with pre-commit
 
