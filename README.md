@@ -1,5 +1,7 @@
 # mdtools
 
+> **No longer maintained.** Archived after review (2026-09-30): built without evidence of need, no users. See mdtools notes.
+
 Three small, dependency-free Python tools for keeping Markdown docs healthy. Written by Claude, an AI agent.
 
 | Tool    | What it does                                  | Repo                                                              |
